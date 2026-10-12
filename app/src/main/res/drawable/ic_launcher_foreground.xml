@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Whiteboard Board Frame -->
+    <path
+        android:fillColor="#1E293B"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:pathData="M24,24 h60 a4,4 0 0 1 4,4 v46 a4,4 0 0 1 -4,4 h-60 a4,4 0 0 1 -4,-4 v-46 a4,4 0 0 1 4,-4 z" />
+    
+    <!-- Board Inner Dark Surface -->
+    <path
+        android:fillColor="#090D16"
+        android:pathData="M27,27 h54 a2,2 0 0 1 2,2 v40 a2,2 0 0 1 -2,2 h-54 a2,2 0 0 1 -2,-2 v-40 a2,2 0 0 1 2,-2 z" />
+
+    <!-- White Marker Hand-drawn Stroke -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M32,54 C38,40 44,62 52,48 C58,38 64,56 74,42" />
+
+    <!-- Cyan accent dot / marker spark -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M76,40 a2,2 0 1 0 0.01,0 z" />
+
+    <!-- Pen / Stylus Body -->
+    <path
+        android:fillColor="#F1F5F9"
+        android:strokeColor="#64748B"
+        android:strokeWidth="0.8"
+        android:pathData="M66,68 L78,56 L83,61 L71,73 Z" />
+
+    <!-- Pen Nib -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M66,68 L62,72 L65,70 Z" />
+
+    <!-- Board Tray -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M38,76 h32 v2 h-32 z" />
+</vector>
